@@ -39,11 +39,11 @@ I will reserve those seats and reset hold tickets count for that venue. Since, i
 Lastly, I will generate confirmation number randomly and set my confirmation map with confirmation number and customer email 
 to keep the record of each user. I will return this confirmation number back to the user.
 
+For testing, I have written some junit test cases in TicketServiceTest.java which contains methods for some test cases.
+One can modify these methoda to check desired result.
 
 Issues faced during implementation:
 I didn't actually get why we need Optional<Integer> instead of just an integer. I assumed it should be integer and moved ahead.
 Initially, I wasn't sure how to reset the hold tickets count. Thought of using thread as the best option.
 Due to time constraint, I implemented numSeatsAvailable() which returns number of seats for the requested venue but couldn't do it by seating level.
 I was facing some problem while designing SeatHold object but to my best knowledge I have designed it accordingly so that it contains all key elements.
-
-
