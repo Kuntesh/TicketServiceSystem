@@ -46,5 +46,5 @@ One can modify these methoda to check desired result.
 Issues faced during implementation:
 I didn't actually get why we need Optional<Integer> instead of just an integer. I assumed it should be integer and moved ahead.
 Initially, I wasn't sure how to reset the hold tickets count. Thought of using thread as the best option.
-Due to time constraint, I implemented numSeatsAvailable() which returns number of seats for the requested venue but couldn't do it by seating level.
+I implemented numSeatsAvailable() which returns number of seats for the requested venue but haven't done it by seating level.
 I was facing some problem while designing SeatHold object but to my best knowledge I have designed it accordingly so that it contains all key elements.
